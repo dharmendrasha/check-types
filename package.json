@@ -1,0 +1,25 @@
+{
+  "name": "@elitale/check-domain",
+  "version": "0.0.1",
+  "description": "This is a project to check if the url is right or wrong via dns lookup also with types",
+  "main": ".out/main.js",
+  "types": ".out/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc src/main.test.ts"
+  },
+  "keywords": [
+    "check-domain",
+    "check",
+    "domain",
+    "dns",
+    "looup",
+    "internet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  }
+}
