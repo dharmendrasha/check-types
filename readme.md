@@ -1,4 +1,4 @@
-# @elitale/check-domain
+# @dharmendrasha/check-domain
 
 Purpose:
 - this is a utility function to test if the domain is exists or not by returning boolean value.
@@ -8,7 +8,7 @@ for ex
 
 ```typescript
 
-import doesDomainExists from '@elitale/check-domain'
+import doesDomainExists from '@dharmendrasha/check-domain'
 
 async main(){
 

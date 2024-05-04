@@ -1,12 +1,18 @@
 {
-  "name": "@elitale/check-domain",
-  "version": "0.0.1",
+  "name": "@dharmendrasha/check-domain",
+  "version": "0.0.4",
   "description": "This is a project to check if the url is right or wrong via dns lookup also with types",
   "main": ".out/main.js",
   "types": ".out/main.d.ts",
+  "readme": "readme.md",
   "scripts": {
     "build": "tsc",
-    "test": "tsc src/main.test.ts"
+    "test": "tsc src/main.test.ts",
+    "publish:public": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmendrasha/check-types.git"
   },
   "keywords": [
     "check-domain",
@@ -16,7 +22,7 @@
     "looup",
     "internet"
   ],
-  "author": "",
+  "author": "Dharmendra shah <dharmendrashaheagle@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.8",
